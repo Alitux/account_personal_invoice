@@ -27,7 +27,7 @@ After installation, you can configure the module by following these steps:
 
 1.  Go to `Settings` > `Users & Companies` > `Users`.
 2.  Select the user you want to restrict.
-3.  In the `Access Rights` tab, under the "Technical" dropdown, check the "Personal Invoices" box.
+3.  In the `Access Rights` tab, under the "Accounting" Section, select the "Personal Invoices" dropdown.
 4.  Save the user.
 
 ## Usage
