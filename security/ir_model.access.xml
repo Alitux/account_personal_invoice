@@ -41,6 +41,26 @@
             <field name="perm_create" eval="1"/>
             <field name="perm_unlink" eval="1"/>
         </record>
+
+        <record id="access_account_account_type_personal_invoices" model="ir.model.access">
+            <field name="name">Account Type Personal Invoices Access</field>
+            <field name="model_id" ref="account.model_account_account_type"/>
+            <field name="group_id" ref="account_personal_invoice.group_account_personal_invoices"/>
+            <field name="perm_read" eval="1"/>
+            <field name="perm_write" eval="0"/>
+            <field name="perm_create" eval="0"/>
+            <field name="perm_unlink" eval="0"/>
+        </record>
+
+        <record id="access_account_move_tax_personal_invoices" model="ir.model.access">
+            <field name="name">Account Move Tax Personal Invoices Access</field>
+            <field name="model_id" ref="account.model_account_move_tax"/>
+            <field name="group_id" ref="account_personal_invoice.group_account_personal_invoices"/>
+            <field name="perm_read" eval="1"/>
+            <field name="perm_write" eval="0"/>
+            <field name="perm_create" eval="0"/>
+            <field name="perm_unlink" eval="0"/>
+        </record>
     </data>
 
 </odoo>
