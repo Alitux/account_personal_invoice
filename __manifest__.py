@@ -21,6 +21,7 @@
         'security/account_security.xml',
         'security/ir_model.access.xml',
         'security/ir_rules.xml',
+        'security/account_security_override.xml',
         'views/view_move_form.xml',
     ],
 }

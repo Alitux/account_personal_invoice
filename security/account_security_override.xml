@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+        This record overrides the default 'account.account_move_see_all' rule.
+        The original rule provides full access ('(1, '=', 1)') to account.move records
+        for users in the 'Facturación' (account.group_account_invoice) group.
+
+        This conflicts with the 'Personal Invoices' rule, which aims to restrict access.
+
+        By changing the domain_force, we ensure that this broad rule does NOT apply
+        to customer invoices and refunds. The visibility for those records will now be
+        handled by more specific rules, such as the 'Personal Invoices' rule.
+    -->
+    <record id="account.account_move_see_all" model="ir.rule">
+        <field name="domain_force">[('type', 'not in', ('out_invoice', 'out_refund'))]</field>
+    </record>
+</odoo>
