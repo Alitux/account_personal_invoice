@@ -18,8 +18,8 @@
     'depends': ['base', 'account','l10n_ar_afipws_fe'],
 
     'data': [
-        'security/ir_model.access.xml',
         'security/account_security.xml',
+        'security/ir_model.access.xml',
         'security/ir_rules.xml',
         'views/view_move_form.xml',
     ],

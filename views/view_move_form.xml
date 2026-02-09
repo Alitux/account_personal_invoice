@@ -7,15 +7,15 @@
       <field name="arch" type="xml">
 
         <xpath expr="//button[@name='action_post'][2]" position="attributes">
-          <attribute name="groups">account.group_account_invoice,account_personal_invoices.group_account_personal_invoices</attribute>
+          <attribute name="groups">account.group_account_invoice,account_personal_invoice.group_account_personal_invoices</attribute>
         </xpath>
 
         <xpath expr="//button[@name='action_post'][3]" position="attributes">
-          <attribute name="groups">account.group_account_invoice,account_personal_invoices.group_account_personal_invoices</attribute>
+          <attribute name="groups">account.group_account_invoice,account_personal_invoice.group_account_personal_invoices</attribute>
         </xpath>
 
         <xpath expr="//button[@name='get_pyafipws_currency_rate']" position="attributes">
-          <attribute name="groups">account.group_account_invoice,account_personal_invoices.group_account_personal_invoices</attribute>
+          <attribute name="groups">account.group_account_invoice,account_personal_invoice.group_account_personal_invoices</attribute>
         </xpath>
 
       </field>

@@ -5,7 +5,7 @@
         <record id="access_account_move_personal_invoices" model="ir.model.access">
             <field name="name">Account Move Personal Invoices Access</field>
             <field name="model_id" ref="account.model_account_move"/>
-            <field name="group_id" ref="account_personal_invoices.group_account_personal_invoices"/>
+            <field name="group_id" ref="account_personal_invoice.group_account_personal_invoices"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="1"/>
@@ -15,7 +15,7 @@
         <record id="access_account_move_line_personal_invoices" model="ir.model.access">
             <field name="name">Account Move Personal Invoices Line Access</field>
             <field name="model_id" ref="account.model_account_move_line"/>
-            <field name="group_id" ref="account_personal_invoices.group_account_personal_invoices"/>
+            <field name="group_id" ref="account_personal_invoice.group_account_personal_invoices"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="1"/>
@@ -25,7 +25,7 @@
         <record id="access_account_journal_personal_invoices" model="ir.model.access">
             <field name="name">Account Personal Journal Access</field>
             <field name="model_id" ref="account.model_account_journal"/>
-            <field name="group_id" ref="account_personal_invoices.group_account_personal_invoices"/>
+            <field name="group_id" ref="account_personal_invoice.group_account_personal_invoices"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="1"/>
@@ -35,7 +35,7 @@
         <record id="access_account_journal_personal_partial_conciliation" model="ir.model.access">
             <field name="name">Account Personal Partial Conciliation Access</field>
             <field name="model_id" ref="account.model_account_partial_reconcile"/>
-            <field name="group_id" ref="account_personal_invoices.group_account_personal_invoices"/>
+            <field name="group_id" ref="account_personal_invoice.group_account_personal_invoices"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_write" eval="1"/>
             <field name="perm_create" eval="1"/>
