@@ -13,9 +13,10 @@
     'website': "https://www.alitux.com.ar",
 
     'category': 'Accounting',
-    'version': '0.1',
+    'version': '19.0.1.0.0',
+    'license': 'GPL-3',
 
-    'depends': ['base', 'account','l10n_ar_afipws_fe'],
+    'depends': ['base', 'account', 'l10n_ar'],
 
     'data': [
         'security/account_security.xml',
@@ -25,4 +26,3 @@
     ],
     'post_init_hook': '_update_conflicting_rule',
 }
-

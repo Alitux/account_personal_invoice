@@ -12,7 +12,7 @@ Key features include:
 *   **Restricts access**: Users assigned to the "Personal Invoices" group will only see sales invoices where they are the `invoice_user_id` or if no `invoice_user_id` is set.
 *   **New Security Group**: Introduces a dedicated "Personal Invoices" security group.
 *   **Integrated Permissions**: Automatically grants access to the standard Odoo "Facturación/Contabilidad" menu for users in the "Personal Invoices" group.
-*   **Compatibility**: Designed to integrate smoothly with the Argentinian localization (`l10n_ar_afipws_fe`).
+*   **Compatibility**: Designed to integrate smoothly with the Argentinian localization (`l10n_ar`). Compatible with Odoo 19.0.
 
 ## Installation
 
